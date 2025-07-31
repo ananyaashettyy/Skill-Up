@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 const PORT = 5000;
-const API_KEY = 'd3f7979e37e23e15ef8795672f0b7e6aca7207cc'; // Replace with your Findwork API key
+const API_KEY = '#FINDWORK_API'; // Replace with  Findwork API key
 
 app.use(cors());
 
