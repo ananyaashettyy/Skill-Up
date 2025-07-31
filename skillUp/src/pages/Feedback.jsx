@@ -15,10 +15,11 @@ const Feedback = () => {
     }
 
     emailjs.sendForm(
-      'service_wlga18p',
-      'template_zvt6s1d',
+      VITE_EMAILJS_SERVICE_ID=new_service_id,
+      VITE_EMAILJS_TEMPLATE_ID=new_template_id,
+
       form.current,
-      'HsNipllbsPEGLVM9D'
+     VITE_EMAILJS_PUBLIC_KEY=new_public_key
     ).then(
       () => {
         alert("Feedback sent successfully!");
