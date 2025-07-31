@@ -1,0 +1,90 @@
+.feedback-page {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e3f6f9, #c1e2f4);
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  padding: 40px;
+  box-sizing: border-box;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+/* Main feedback box */
+.feedback-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 16px;
+  background-color: #daf4f9;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+/* Headers */
+.feedback-container h1 {
+  color: #2a2a99;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.feedback-container h2 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.feedback-container p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Star Ratings */
+.stars {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.stars .on {
+  color: #ffc002;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: 1px solid #338ad1;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Submit Button */
+button {
+  padding: 12px 24px;
+  background-color: #0e27e4;
+  border: none;
+  color: #0f0000;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #6c7ae5;
+}
