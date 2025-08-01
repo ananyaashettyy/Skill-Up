@@ -50,3 +50,9 @@ npm install
 ```bash
 node index.js
 ```
+## 📬 Contact
+
+For any feedback, suggestions, or collaboration:
+
+- 📧 Email: [ananyaashettyy@gmail.com](mailto:ananyaashettyy@gmail.com)
+- 💼 LinkedIn: [Ananya R Shetty](https://www.linkedin.com/in/ananyaashettyy/)
