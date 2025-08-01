@@ -5,28 +5,39 @@
 ---
 
 ## 📁 Project Structure
-SkillUp/
+Skill-Up/
 ├── server/
-│   ├── index.js
-│   ├── package.json
-│   └── package-lock.json
+│ ├── index.js
+│ ├── package.json
+│ └── package-lock.json
+│
+├── backend/
+│ └── keyword.js
 │
 ├── assets/
-├── backend/
-│   └── keyword.js
+│ └── [images, icons, etc.]
+│
 ├── pages/
-│   ├── About.jsx / About.css
-│   ├── Dashboard.jsx / Dashboard.css
-│   ├── Feedback.jsx / Feedback.css
-│   ├── Home.jsx / Home.css
-│   ├── JobSearch.jsx / JobSearch.css
-│   ├── Login.jsx / Login.css
-│   ├── ResumeBuilder.jsx / ResumeBuilder.css
-│   ├── Signup.jsx / Signup.css
+│ ├── About.jsx
+│ ├── About.css
+│ ├── Dashboard.jsx
+│ ├── Dashboard.css
+│ ├── Feedback.jsx
+│ ├── Feedback.css
+│ ├── Home.jsx
+│ ├── Home.css
+│ ├── JobSearch.jsx
+│ ├── JobSearch.css
+│ ├── Login.jsx
+│ ├── Login.css
+│ ├── ResumeBuilder.jsx
+│ ├── ResumeBuilder.css
+│ ├── Signup.jsx
+│ ├── Signup.css
 │
 ├── utils/
+│
 ├── App.jsx
 ├── App.css
 ├── index.css
-
-
+└── index.js
