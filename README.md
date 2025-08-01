@@ -54,5 +54,10 @@ node index.js
 
 For any feedback, suggestions, or collaboration:
 
-- 📧 Email: [ananyaashettyy@gmail.com](mailto:ananyaashettyy@gmail.com)
+## 📬 Contact
+
+For any feedback, suggestions, or collaboration:
+
+- 📧 Email: [ananyashetty82987@gmail.com](mailto:ananyashetty82987@gmail.com)  
 - 💼 LinkedIn: [Ananya R Shetty](https://www.linkedin.com/in/ananyaashettyy/)
+
